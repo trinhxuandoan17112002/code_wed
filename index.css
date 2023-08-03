@@ -1,0 +1,56 @@
+
+body
+{
+   background-color:white;
+   
+}
+h1
+{
+    font-style: italic;
+    color: red;
+    font-size: 100px;
+}
+img
+{
+    width: 100px;
+    height: 200px;
+}
+p
+{
+    font-style: bold;
+    text-align: center;
+    font-size: 30px;
+}
+a
+{
+    font-size: 20px;
+}
+pre
+{
+    color: brown;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+video
+{
+    width: 400px;
+    height: 300px;
+}
+table , th ,td
+{
+   border: 1px solid red;
+   border-collapse: collapse;
+   padding: 10px;
+}
+iframe
+{
+    width: 500px;
+    height: 300px;
+}
+button
+{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+

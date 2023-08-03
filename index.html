@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> index </title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- CÁC THẺ VĂN BẢN     -->
+    <h1> chao ban </h1>
+
+    <pre>
+        sóng bắt đầu từ gió 
+        gió bắt đâu từ đâu 
+        anh cũng khum bt nựa
+        khi nào ta yêu nhau:)))
+    </pre><br>
+
+    <strong> noi dung quan trong thuong dc in dam </strong>
+    <br>
+
+    <p> trinh xuan doan </p>
+    <br>
+    <mark> đánh dấu văn bản</mark>
+    <br>
+    <del> đánh dấu văn bản được xóa </del>
+    <br>
+    <ins> đánh dấu văn bản được chèn</ins>
+    <br>
+   <p> chỉ số trên <sup> [1]</sup></p>
+   <br>
+   <blockquote cite=""> thẻ trích dẫn</blockquote>
+   <br>
+   <q> thẻ trích dẫn văn bản ngắn </q>
+   <br>
+   <abbr title="đánh dấu từ viết tắt"> HTML</abbr>
+   <br>
+   <address> thẻ địa chỉ,sdt,vv</address>
+   <br>
+   <cite> tiêu đề cho 1 tác phẩm </cite>
+   <br>
+   <bdo> ghi đè văn bản</bdo>
+   <br>
+
+    <!-- CÁC THẺ ĐƯỜNG DẪN -->
+
+    <a href="facebook.com"> trang chu fb </a>
+    <br>
+    <img src="./media/anhcho.jpg" alt="anh cho">
+    <figcaption> anh con cho</figcaption>
+    <br>
+    <audio controls autoplay muted loop >
+        <source src="media/sontung.mp3">
+    </audio>
+    <br>
+    <video controls>
+        <source src="media/video.mp4">
+    </video>
+
+    <!-- CÁC THẺ LIST DANH SACH-->
+
+    <ol type="A">
+        <li> thu 2 </li>
+        <li> thu 3 </li>
+        <li> thu 4 </li>
+    </ol>
+    <br>
+    
+    <ul type="square">
+        <li> tuan 1</li>
+        <ul>
+          <li> thu2 </li>  
+          <li> thu3</li>  
+          <li> thu4 </li>  
+        </ul>
+    </ul>
+    <br>
+
+    <dl>
+        <dt> HTML </dt>
+        <dd> khong phai 1 ngon ngu lap trinh</dd>
+        <dd> dung lam wed </dd>
+    </dl>
+    <br>
+
+    <!--  THẺ TABLE  -->
+
+    <table>
+        <tr>
+            <th colspan="2"> thu 2</th>
+            <th> thu 4</th>
+        </tr>
+        <tr>
+            <td> thu 5 </td>
+            <td> thu 6 </td>
+            <td> thu 7</td>
+        </tr>
+        <tr>
+            <td> chu nhat </td>
+            <td> chu nhat </td>
+            <td> chu nhat </td>
+        </tr>
+    </table>
+    <br>
+    
+    <!--- THE IFRAME  --->
+     
+    <iframe src="https://www.bing.com/"></iframe>
+    <br>
+    <!--- THE BUTTON -->
+
+    <button type="button"> click</button>
+    <br>
+    <br>
+
+    <!--- THE FORM -->
+
+    <form>
+        <label for="hoten"> Ho Ten </label>
+        <input type="text" name="hoten" id="hoten" placeholder="nhap ho va ten" >
+        <br>
+        <label for="matkhau"> Mat Khau </label>
+        <input type="password" name=" matkhau" id="matkhau" placeholder="nhap mat khau" >
+        <br>
+        <label for="nam"> Nam </label>
+        <input type="radio" name="nam" id="nam" value="nam">
+        <label for="nu"> Nu </label>
+        <input type="radio" name="nu" id="nu" value="nu">
+        <br>
+        <label for="checkbox"> Checkbox </label>
+        <input type="Checkbox" name="checkbox" id="checkbox "value="checkbox"></input>
+        <br>
+        <label for="sothich"> Sở thích </label>
+        <section name="sothich" id="sothich">
+            <option value="db"> da bong </option>
+            <option value="bc"> bongs chhuyen </option>
+            <option value="cl"> cau long </option>
+        </section>
+        <br>
+        <label for="email"> Email </label>
+        <input type="email" name="email" id="email"  placeholder="nhap email cua ban">
+        <br>
+        <label for="file" > File </label>
+        <input type="file" name="file" id="file" value="">
+        <br>
+        <label for="number"> Number </label>
+        <input type="number" name="number" id="name" placeholder=" so">
+        <br>
+        <label for="range"> độ sáng </label>
+        <input type="range" name="range" id="range">
+        <br>
+        <label for="timkiem" > Seach</label>
+        <input type="seach" name="timkiem" id="seach">
+        <br>
+        <label for="sdt"> So dien thoai </label>
+       <input type="tel" name="tel" id="tel" placeholder="nhap sdt">
+       <br>
+       <label for="time"> thoi gian </label>
+       <input type="time" name="time" id="time">
+       <br>
+       <label for="bdate"> ngay thang nam sinh </label>
+       <input type="date" name="date" id="date">
+       <br>
+       <input type="submit" name="submit" id="submit">
+       <br>
+       <input type="reset" name="reset" id="reset">
+       <br>
+       
+    </form>
+</body>
+</html>

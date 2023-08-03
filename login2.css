@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('./media/pexels-sebastian-voortman-189349.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.login
+{
+    width: 500px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+    
+}
+.box1
+{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.box2
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.box2 i
+{
+    font-size: 17px;
+    margin-right: 15px;
+}
+.box3
+{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.box4 .input , .box5 .input
+{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+   
+}
+::placeholder
+{
+    font-size: 17px;
+    color:black;
+}
+.box6 
+{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.box6 a
+{ 
+    text-decoration: none;
+    color: black;
+}
+.box7
+{
+    display: flex;
+    justify-content: center;
+}
+.box7 button
+{
+    font-size: 20px;
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    background-color: black;
+    color: aliceblue;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+.input:focus
+{
+    width: 105%;
+}
+button:active
+{
+    font-size: 23px;
+}

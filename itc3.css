@@ -1,0 +1,49 @@
+header
+{
+    background-color: #185c98;
+    height: 50px;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header ul
+{
+    list-style: none;
+}
+header ul li
+{
+    float: left;
+    line-height: 45px;
+    padding: 0 15px;
+    font-weight: 700;
+    color: white;
+}
+.conterner h3
+{
+     color:#c02a29;
+font-family:Arial;
+font-size:20px;
+line-height:23px;
+text-align:justify;
+text-transform:uppercase;
+}
+.conterner h1
+{
+    color: #2657af;
+}
+.conterner p
+{
+    color: #666666;
+}
+.conterner h4
+{
+    line-height: 18px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.conterner pre
+{
+    color: #212529;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
