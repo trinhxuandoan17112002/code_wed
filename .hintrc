@@ -17,12 +17,7 @@
         "label": "off"
       }
     ],
-    "axe/name-role-value": [
-      "default",
-      {
-        "link-name": "off"
-      }
-    ],
+    "axe/name-role-value": "off",
     "button-type": "off",
     "compat-api/html": [
       "default",
