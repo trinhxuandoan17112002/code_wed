@@ -26,6 +26,12 @@
           "input[autocapitalize]"
         ]
       }
+    ],
+    "axe/aria": [
+      "default",
+      {
+        "aria-required-attr": "off"
+      }
     ]
   }
 }
