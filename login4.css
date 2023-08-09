@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif;
+}
+.body
+{   
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+
+}   
+.login
+{
+    width: 900px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    position: absolute;
+    transform: translateY(-50%);
+    top:50%;
+    left: 21%;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 10px 10px 1px rgb(32 33 36 / 28%);
+}
+.back
+{
+    background-color: rgb(244, 249, 249);
+}
+.login .content
+{
+    position: relative;
+    width: 450px;
+    height: 600px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    background-image: url('./media/pexels-abdullah-ghatasheh-1631677.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px 0 0 20px;
+}  
+.login .content p
+{   
+    position: absolute;
+    transform:translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    color: #fff;
+}
+.login .home
+{
+    width: 450px;
+    padding: 50px;
+}
+.login .home .account h2
+{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.input 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0 10px 0 10px;
+}
+.input-mail 
+{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+.input i
+{
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    transform: translateY(-50%);
+}
+.input label
+{
+    position: absolute;
+    left: 20px;
+    top: 20%;
+    pointer-events: none;
+    font-size: 18px;
+    font-weight: 500;
+   transition:.3s ;
+}
+
+.input-mail:focus ~ label,.input-mail:valid ~ label{
+    top: -10px;
+    font-size: 15px;
+    color:#5d5076;
+   border-bottom: none;
+}
+.input-mail:focus,.input-mail:valid
+{
+    border-bottom: 1px solid #5d5076;
+}
+
+.button
+{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.button:active
+{
+    background-color: #5d5076;
+    font-size: 25px;
+} 
+.log
+{
+    display: flex;
+    justify-content: center;
+}
+.log a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.log a:hover 
+{
+    text-decoration: underline;
+}

@@ -34,3 +34,10 @@ text-daration : bor gach ngang
 
       letter-spacing: khoang cach giua cac chu
       
+transfrom : scale tang chieu rong cao
+rotate :xoay
+rotateX :xoay theo chieu ngang
+ratateY : xoay theo chieu doc
+ratateZ : xoay theo măt phẳng
+ translateX :dich chuyen
+ skew : nghieng nhu hinh binh hanh

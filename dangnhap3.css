@@ -6,8 +6,11 @@
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
-body{
-    background: aqua;
+body
+{
+    background-image: url('https://images.pexels.com/photos/1643113/pexels-photo-1643113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); 
+    background-position: center;
+    background-size: cover;
 }
 .container{
     display: flex;
@@ -20,10 +23,11 @@ body{
     position: relative;
     width: 370px;
     height: 450px;
-    background: rgb(0, 0, 0,0.83);
+    background:transparent;
     color: #fff;
     padding: 80px 30px 25px 30px;
     border-radius: 20px;
+    backdrop-filter: blur(10px);
 }
 .header-img{
     position: absolute;
