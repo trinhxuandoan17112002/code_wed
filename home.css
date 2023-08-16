@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif;
+}
+.header .nav
+{
+    width: 100%;
+    height: 4em;
+    position:  relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 99;
+    background: transparent;
+    position: fixed;
+}
+.nav a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+}
+.nav .logo
+{
+    position: relative;
+    left: -2em;
+}
+.nav .logo i 
+{
+    font-size: 2em;
+    color: #fff;
+}
+.nav .logo a
+{
+    font-size: 1.5em;
+}
+.nav .home a
+{
+    position: relative;
+   margin-left: 2em;
+}
+.home a::after
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #fff;
+    bottom: -6px;
+    transform: scale(0);
+    transition: .5s;
+}
+.home a:hover::after
+{
+    transform: scale(1);
+}
+.search a
+{
+    margin-left: 1em;
+}
+.search .login
+{ 
+   padding: 7px 15px;
+   background-color: rgb(197, 13, 13);
+   border-radius: 5%;
+}
+.search a:active
+{
+    font-size: 20px;
+}
+.header
+{ 
+    width: 100%;
+    height: 100vh;
+    background-image: url('./media/anhnui3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.section 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 250px;
+}
+.section .explore h2
+{
+    font-size: 1.5em;
+    color: #fff;
+   
+}
+.section .line  
+{
+    width: 200px;
+    height: 4px;
+    background-color: rgb(197, 13, 13);
+    margin: 10px auto 30px auto;
+    border-radius: 10px;
+}
+.section .wonderful h1
+{
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 1.5em;
+    letter-spacing: 5px;
+}
+.section .learn a
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(197, 13, 13) ;
+    padding: 5px 10px ;
+    border-radius: 10px;
+}
+.section .learn a:active
+{
+    font-size: 20px;
+}
+.content 
+{
+  width: 100%;
+  margin: 80px auto 30px auto;
+}
+.content .upcoming h1
+{
+    text-align: center;
+    font-size: 2em;
+}
+.content  .line1 
+{
+    width: 200px;
+    height: 4px;
+    background-color: rgb(197, 13, 13);
+    margin: 10px auto 30px auto;
+    border-radius: 10px;
+}
+.everest 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px ;
+}
+img
+{
+    width: 100%;
+    height: 20%;
+}
+.box2
+{
+     margin-left: 80px;
+}
+.box1 ,.box2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box1 p ,.box2 p
+{
+    font-size: 15px;
+    margin-bottom: 30px;
+
+}
+.box1 h4,.box2 h4
+{
+    font-size: 1.2em;
+}
+.box1 a ,.box2 a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 2px 5px;
+    background-color: rgb(197, 13, 13);
+    border-radius: 20px;
+}
+.everest a:hover
+{
+    background-color: rgb(32, 31, 31);
+}
+.everest img:active
+{
+    width: 110%;
+    height: 30%;
+}
+.ddoans
+{
+ width: 100%;
+ height: 90vh;
+ background-image:url('https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+ background-position: center;
+ background-size: cover;
+}
+.ddoans
+{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.ddoans h1
+{
+   font-size: 3em;
+   letter-spacing: 5px;
+   color: #fff;
+}
+.ddoans .line2
+{
+    width: 350px;
+    height: 4px;
+    background-color: rgb(197, 13, 13);
+    margin: 10px auto 30px auto;
+    border-radius: 10px;
+}
+.ddoans p
+{
+    color: #fff;
+    margin-bottom: 60px;
+}
+.ddoans a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 2px 5px;
+    background-color: rgb(197, 13, 13);
+    border-radius: 20px;
+}
+.txdoan
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box3
+{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 50px;
+}
+.box4
+{
+    width: 60%;
+}
+.box3-1 h1
+{
+    font-size: 3em;
+}
+.line3
+{
+    width: 250px;
+    height: 4px;
+    background-color: rgb(197, 13, 13);
+    margin: 10px auto 30px auto;
+    border-radius: 10px;
+    margin-left: -1px;
+}
+.box3-2 p
+{
+    color: #000;
+    margin-bottom: 40px;
+}
+.box3-3 a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 2px 5px;
+    background-color: rgb(197, 13, 13);
+    border-radius: 20px;
+}
+.box4-1 img
+{
+    width: 38%;
+    margin: 0 10px 10px 10px ;
+}
+.box4-1
+{
+    margin-left: 100px;
+}
+.box4-1 img:hover
+{
+    width: 45%;
+}
+.box3-3 a:hover
+{
+    font-size: 1.5em;
+}
+.footer 
+{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(85, 87, 91);
+}
+.hanoi
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}

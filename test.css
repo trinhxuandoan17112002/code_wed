@@ -1,0 +1,9 @@
+button 
+{
+     font-size: 20px ;
+     transition-duration: 1s;
+}
+button:hover
+{
+    color: blue;
+}

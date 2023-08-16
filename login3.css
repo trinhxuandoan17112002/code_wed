@@ -23,37 +23,29 @@
 {
     text-decoration: none;
     color: #fff;
-    font-size: 17px;
+    font-size: 20px;
     margin-left: 20px;
     font-weight: 600;
 }
-.header .search input
-{   
-    background: transparent;
-    font-size: 20px;
-    border-radius: 5px;
-    border: 2px solid white;
-    padding-left: 10px;
-    right: 100px;
-    outline: none;
-    color: #fff;
-}
-.header .search i
+.nav a:hover
 {
-    position: absolute;
-    right: 110px;
-    top:22px;
+    border-bottom: 4px solid #fff;
+    transition: .5s;
+}
+.search i
+{
     color: #fff;
-    
+    font-size: 1.5em;
+    margin-left: 20px;
 }
 .background
 {
     width: 100%;
     height: 100vh;
-    background-image: url('./media/pexels-pixabay-36717.jpg');
+    background-image: url('./media/pexels-eberhard-grossgasteiger-1612351.jpg');
     background-position: center;
     background-size: cover;
-  
+    filter: blur(5px); 
 }
 .home
 {
@@ -63,7 +55,7 @@
     width: 75%;
     height: 75%;
     transform: translate(-50% , -50%);
-    background-image: url('./media/pexels-pixabay-36717.jpg');
+    background-image: url('./media/pexels-eberhard-grossgasteiger-1612351.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -71,7 +63,7 @@
     border: 1px solid black;
     border-radius: 10px;
     border: none;
-  
+    box-shadow: 5px 10px 10px 0;
 }
 .content
 {
@@ -95,6 +87,7 @@
     font-size: 3.5em;
     text-align: center;
     color: #fff;
+    letter-spacing: 10px;
 }
 .content h3
 {
@@ -126,9 +119,7 @@
     width: 450px;
     position: relative;
     padding: 100px 30px;
-    backdrop-filter: blur(20px);
-
-
+    backdrop-filter: blur(10px);
 }
 .login h2
 {
@@ -197,14 +188,13 @@ button
 {
     width: 100%;
     height: 40px;
-    background-color: crimson;
+    background-color: rgb(66, 44, 48);
     border: none;
     outline: none;
     font-size: 20px;
     font-weight: 700;
     border-radius: 7px;
     color: #fff;
-   
 }
 button:active
 {
