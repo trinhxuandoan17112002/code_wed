@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./maytinh.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+
+    <div class="container">
+
+        <div class="box1">
+            <form>
+                <div class="display">
+                    <input type="text" name="display">
+                </div>
+                <div>
+                    <input type="button" value="AC" class="mau" onclick="display.value = ''">
+                    <input type="button" value="DE" class="mau"
+                        onclick="display.value = display.value.toString().slice(0,-1)">
+                    <input type="button" value="." class="mau" onclick="display.value += '.'">
+                    <input type="button" value="/" class="mau" onclick="display.value += '/'">
+                </div>
+                <div>
+                    <input type="button" value="7" onclick="display.value += '7'">
+                    <input type="button" value="8" onclick="display.value += '8'">
+                    <input type="button" value="9" onclick="display.value += '9'">
+                    <input type="button" value="*" class="mau" onclick="display.value += '*'">
+                </div>
+                <div>
+                    <input type="button" value="4" onclick="display.value += '4'">
+                    <input type="button" value="5" onclick="display.value += '5'">
+                    <input type="button" value="6" onclick="display.value += '6'">
+                    <input type="button" value="-" class="mau" onclick="display.value += '-'">
+                </div>
+                <div>
+                    <input type="button" value="1" onclick="display.value += '1'">
+                    <input type="button" value="2" onclick="display.value += '2'">
+                    <input type="button" value="3" onclick="display.value += '3'">
+                    <input type="button" value="+" class="mau" onclick="display.value += '+'">
+                </div>
+                <div>
+                    <input type="button" value="00" onclick="display.value += '00'">
+                    <input type="button" value="0" onclick="display.value += '0'">
+                    <input type="button" value="=" class="equal" onclick="display.value = eval(display.value)">
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

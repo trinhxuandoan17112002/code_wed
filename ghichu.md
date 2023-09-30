@@ -1,6 +1,8 @@
 float : di chuyển nội dung văn bản 
 
+the gach noi dung s  del
 clearfix : chống tràn trong van ban
+checked :tu dong tich trc
 
 thẻ block : có độ rộng full bằng phần tử chứa nó
 nếu nhiều thẻ block thì nó sẽ rớt xuống hàng
@@ -41,3 +43,4 @@ ratateY : xoay theo chieu doc
 ratateZ : xoay theo măt phẳng
  translateX :dich chuyen
  skew : nghieng nhu hinh binh hanh
+ user-select:none k cho ng dung chon label
