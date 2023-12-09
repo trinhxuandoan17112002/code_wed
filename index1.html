@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form nhập thông tin</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h2>Form nhập thông tin</h2>
+    <form id="dataForm">
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id" required><br><br>
+        <label for="name">Tên:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="price">Giá:</label>
+        <input type="text" id="price" name="price" required><br><br>
+        <label for="quantity">Số lượng:</label>
+        <input type="text" id="quantity" name="quantity" required><br><br>
+        <button type="submit" id="addButton">Thêm</button>
+        <button type="button" id="resetButton">Xóa</button>
+    </form>
+
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tên</th>
+                <th>Giá</th>
+                <th>Số lượng</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+
+    <script>
+        $(document).ready(function() {
+            var data = [];
+
+            // Load initial data
+            loadData();
+
+            $('#dataForm').submit(function(e) {
+                e.preventDefault();
+                var id = $('#id').val();
+                var name = $('#name').val();
+                var price = $('#price').val();
+                var quantity = $('#quantity').val();
+
+                var newData = { id: id, name: name, price: price, quantity: quantity };
+                data.push(newData);
+
+                $('#dataForm')[0].reset();
+                loadData();
+            });
+
+            $('#resetButton').click(function() {
+                data = [];
+                loadData();
+            });
+
+            function loadData() {
+                var tableBody = $('#tableBody');
+                tableBody.empty();
+
+                for (var i = 0; i < data.length; i++) {
+                    var row = $('<tr>');
+                    row.append($('<td>').text(data[i].id));
+                    row.append($('<td>').text(data[i].name));
+                    row.append($('<td>').text(data[i].price));
+                    row.append($('<td>').text(data[i].quantity));
+                    row.append($('<td>').html('<input type="checkbox">'));
+                    tableBody.append(row);
+                }
+            }
+        });
+    </script>
+</body>
+</html>
