@@ -1,0 +1,28 @@
+{
+  "name": "jsfireworks",
+  "version": "1.0.0",
+  "description": "Fireworks simulation using p5.js",
+  "main": "sketch.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisjm/jsfireworks.git"
+  },
+  "keywords": [
+    "p5js"
+  ],
+  "author": "Chris J Mears",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisjm/jsfireworks/issues"
+  },
+  "homepage": "https://github.com/chrisjm/jsfireworks#readme",
+  "prettier": {},
+  "dependencies": {
+    "snowpack": "^2.18.5"
+  }
+}
