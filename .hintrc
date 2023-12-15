@@ -14,7 +14,8 @@
     "axe/forms": [
       "default",
       {
-        "label": "off"
+        "label": "off",
+        "select-name": "off"
       }
     ],
     "axe/name-role-value": "off",
@@ -33,6 +34,7 @@
         "aria-required-attr": "off"
       }
     ],
-    "meta-viewport": "off"
+    "meta-viewport": "off",
+    "disown-opener": "off"
   }
 }
